@@ -25,3 +25,4 @@ requests
 
 # Excel File Manipulation
 openpyxl
+nltk>=3.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
