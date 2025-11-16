@@ -2,7 +2,7 @@
 langchain==0.0.191
 chromadb==0.3.22
 llama-cpp-python==0.1.66
-pdfminer.six==20221105
+pdfminer.six==20251107
 InstructorEmbedding
 sentence-transformers
 faiss-cpu
@@ -25,3 +25,4 @@ requests
 
 # Excel File Manipulation
 openpyxl
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
